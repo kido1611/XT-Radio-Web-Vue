@@ -4,7 +4,7 @@
         <b-container class="text-left" >
             <div v-for="item in list" v-bind:key="item.nama">
                 <h3 class="text-uppercase" style="margin-top: 8px; margin-bottom: 0px;">{{item.nama}}</h3>
-                <!-- <hr/>
+                <hr/>
                 <b-row class="m-0">
                     <b-col cols md="6" lg="4" v-for="anggota in item.anggota" v-bind:key="anggota.nim" class="p-1">
                         <div class="crew-card">
@@ -12,7 +12,7 @@
                             <h6 class="m-0" style="color: rgba(255,255,255,0.7);">{{anggota.nama}} - {{anggota.nim}}</h6>
                         </div>
                     </b-col>
-                </b-row> -->
+                </b-row>
             </div>
         </b-container>
     </div>

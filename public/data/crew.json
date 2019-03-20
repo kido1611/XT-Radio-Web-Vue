@@ -76,21 +76,6 @@
                         "jabatan": "Koordinator Digital"
                     },
                     {
-                        "nama":"Restu Zakaria",
-                        "nim": "622014004",
-                        "jabatan": "Anggota"
-                    },
-                    {
-                        "nama":"Nurhuda",
-                        "nim": "612014066",
-                        "jabatan": "Anggota"
-                    },
-                    {
-                        "nama":"Elisa Kurniawan",
-                        "nim": "612014051",
-                        "jabatan": "Anggota"
-                    },
-                    {
                         "nama":"Baktiar Krisna Mukti Nugroho",
                         "nim": "612014021",
                         "jabatan": "Anggota"
@@ -101,9 +86,59 @@
                         "jabatan": "Anggota"
                     },
                     {
-                        "nama": "dll",
-                        "nim": "",
-                        "jabatan":""
+                        "nama":"Elisa Kurniawan",
+                        "nim": "612014051",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Nurhuda",
+                        "nim": "612014066",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Restu Zakaria",
+                        "nim": "622014004",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Marcellus Denta Widyapramana",
+                        "nim": "612015002",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Johandi",
+                        "nim": "612015028",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Yohanes Dino Lawotan",
+                        "nim": "612016601",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Yoshua Fany Mardika",
+                        "nim": "612016040",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Titus Setiawan",
+                        "nim": "612017059",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Victor Ridolf Cesar Huwae",
+                        "nim": "622017008",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Jane Chrestella Marutotamtama",
+                        "nim": "612018006",
+                        "jabatan": "Anggota"
+                    },
+                    {
+                        "nama":"Crisna Cristine Xenna Suweni",
+                        "nim": "622018014",
+                        "jabatan": "Anggota"
                     }
                 ]
             },
@@ -151,19 +186,54 @@
                         "jabatan": "Anggota"
                     },
                     {
-                        "nama":"Hendri Rahardjo",
-                        "nim": "61201478",
+                        "nama": "Earl Eugene Reinhart Manondo",
+                        "nim": "612015031",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Fransiska Melathi Cahyaningtyas",
+                        "nim": "612015032",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama":"Gervasius Jovian Bayu Aji Pangestu",
+                        "nim": "612016007",
                         "jabatan": "Anggota"
                     },
                     {
-                        "nama":"Sekar Imayu",
-                        "nim": "612014050",
+                        "nama":"Dhanurendra Wijayanto",
+                        "nim": "612016026",
                         "jabatan": "Anggota"
                     },
                     {
-                        "nama": "dll",
-                        "nim": "",
-                        "jabatan":""
+                        "nama": "Hosea Sangadi Nareswara",
+                        "nim": "612017019",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Narendra Wilwatikta",
+                        "nim": "612017024",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Hoeko Setyawijaya",
+                        "nim": "622017004",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Pascalis Batistuta Ciptantono",
+                        "nim": "612018001",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Jane Erlinda Hadi",
+                        "nim": "612018031",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Dwira Kurnia Larasati",
+                        "nim": "612018043",
+                        "jabatan":"Anggota"
                     }
                 ]
             },
