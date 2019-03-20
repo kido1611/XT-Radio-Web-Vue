@@ -1,6 +1,6 @@
 {
-  "name": "xt-radio",
-  "short_name": "xt-radio",
+  "name": "XT Radio",
+  "short_name": "XTRadio",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
@@ -13,8 +13,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "background_color": "#212121",
+  "theme_color": "#F68C1E"
 }

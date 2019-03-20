@@ -1,4 +1,10 @@
-# xt-radio
+# XT Radio Web
+This project is built in using Vue-cli. Try live demo at [XT Radio Beta](https://beta.xt-radio.com)
+
+
+
+Created and maintened by XT Radio Digital Division
+
 
 ## Project setup
 ```
@@ -14,16 +20,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
