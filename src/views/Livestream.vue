@@ -1,6 +1,6 @@
 <template>
     <div class="container text-center" style="" id="livestream-container" >
-        <h3>Memuat data</h3>
+        <h3 class="w-100">Memuat data</h3>
     </div>
 </template>
 
