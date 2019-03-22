@@ -15,7 +15,7 @@ export default new Router({
     {
       path: '/livestream',
       name: 'livestream',
-      component: () => import(/* webpackChunkName: "video" */ './views/Livestream.vue')
+      component: () => import(/* webpackChunkName: "livestream" */ './views/Livestream.vue')
     },
     {
       path: '/video',
