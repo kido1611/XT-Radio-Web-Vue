@@ -36,13 +36,8 @@
                         "jabatan": "Koordinator Analog"
                     },
                     {
-                        "nama":"Aditya Rahardian Daruaji",
-                        "nim": "612014077",
-                        "jabatan": "Anggota"
-                    },
-                    {
-                        "nama":"Melky Sealey Tandigau",
-                        "nim": "612014048",
+                        "nama":"Eko Suryono",
+                        "nim": "612014009",
                         "jabatan": "Anggota"
                     },
                     {
@@ -51,19 +46,59 @@
                         "jabatan": "Anggota"
                     },
                     {
+                        "nama":"Melky Sealey Tandigau",
+                        "nim": "612014048",
+                        "jabatan": "Anggota"
+                    },
+                    {
                         "nama":"Rizky Sulistyo",
                         "nim": "612014055",
                         "jabatan": "Anggota"
                     },
                     {
-                        "nama":"Eko Suryono",
-                        "nim": "612014009",
+                        "nama":"Aditya Rahardian Daruaji",
+                        "nim": "612014077",
                         "jabatan": "Anggota"
                     },
                     {
-                        "nama": "dll",
-                        "nim": "",
-                        "jabatan":""
+                        "nama": "Timotius Andy Saputra",
+                        "nim": "612016012",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Muhammad Cholis Angga Graita",
+                        "nim": "612016043",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Albertus Theo Prihantoro",
+                        "nim": "612017009",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Muhamad Syamsudin",
+                        "nim": "612017026",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Imaduddin Abdurrahman",
+                        "nim": "612017043",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Adityo Winardi",
+                        "nim": "612018016",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Bernadus Sandy Pratama Putra Ardany",
+                        "nim": "612018022",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Maikel Mayor",
+                        "nim": "612018024",
+                        "jabatan":"Anggota"
                     }
                 ]
             },
@@ -246,9 +281,19 @@
                         "jabatan": "Koordinator Humas"
                     },
                     {
+                        "nama":"Wahyu Pupuh Untoro A.",
+                        "nim": "612014013",
+                        "jabatan": "Anggota"
+                    },
+                    {
                         "nama":"Christian Bernard Manoppo",
                         "nim": "612014024",
                         "jabatan": "Anggota"
+                    },
+                    {
+                        "nama": "Kurnia Adi Priyanto",
+                        "nim": "612014044",
+                        "jabatan":"Anggota"
                     },
                     {
                         "nama":"Muhammad Kirana Bagaskara",
@@ -256,24 +301,44 @@
                         "jabatan": "Anggota"
                     },
                     {
-                        "nama":"Reymond Harjo Purnomo",
-                        "nim": "612014010",
-                        "jabatan": "Anggota"
+                        "nama": "Hilman Rafif Ihsan Rahmawan",
+                        "nim": "612018012",
+                        "jabatan":"Anggota"
                     },
                     {
-                        "nama":"Benedictus Edwin Nugraha",
-                        "nim": "612014069",
-                        "jabatan": "Anggota"
+                        "nama": "Azriel Valent Dillano",
+                        "nim": "612018014",
+                        "jabatan":"Anggota"
                     },
                     {
-                        "nama":"Wahyu Pupuh Untoro A.",
-                        "nim": "612014013",
-                        "jabatan": "Anggota"
+                        "nama": "Winner Nuelson Patodingan",
+                        "nim": "612018015",
+                        "jabatan":"Anggota"
                     },
                     {
-                        "nama": "dll",
-                        "nim": "",
-                        "jabatan":""
+                        "nama": "Ronny Eurico Hasudungan I",
+                        "nim": "612018046",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Ruthanti Purwaningsih",
+                        "nim": "612018049",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Dinda Al Fitri Praptono",
+                        "nim": "612018051",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Yesyurun Masiakh Agape",
+                        "nim": "612018055",
+                        "jabatan":"Anggota"
+                    },
+                    {
+                        "nama": "Rico Panji Setiawan",
+                        "nim": "612018056",
+                        "jabatan":"Anggota"
                     }
                 ]
             }
