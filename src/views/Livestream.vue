@@ -11,11 +11,12 @@ export default {
     name: "Livestream",
     data: () => ({
         channel: "UCqyYrbhDar48h7-mj1RNb2g",
+        kunciGeni: "AIzaSyByS2fDWX22pUxGG_KqwnVJu4aW-641h8s",
         //channel : "UCThyazpS-fnWAHsFZLYBNXg"
     }),
     mounted () {
         axios
-            .get('https://www.googleapis.com/youtube/v3/search?part=snippet&channelId='+this.channel+'&type=video&eventType=live&key=AIzaSyByS2fDWX22pUxGG_KqwnVJu4aW-641h8s')
+            .get('https://www.googleapis.com/youtube/v3/search?part=snippet&channelId='+this.channel+'&type=video&eventType=live&key='+this.kunciGeni)
             .then(response => {
                 /* eslint-disable no-console */
                 // console.log(response.data);
@@ -28,6 +29,10 @@ export default {
                 {
                     document.getElementById("livestream-container").innerHTML = "<h1 class=\"w-100\">Tidak ada livestreaming</h1>";
                 }
+            })
+            .catch(e => {
+                /* eslint-disable no-console */
+                document.getElementById("livestream-container").innerHTML = "<h1 class=\"w-100\">Gagal. "+e.message+"</h1>";
             })
     }
 }
