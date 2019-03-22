@@ -31,11 +31,10 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.min.css'
-import {Navbar, Layout, Alert, Dropdown, Modal} from 'bootstrap-vue/es/components'
+import {Navbar, Layout, Alert, Modal} from 'bootstrap-vue/es/components'
 Vue.use(Navbar);
 Vue.use(Layout);
 Vue.use(Alert);
-Vue.use(Dropdown);
 Vue.use(Modal);
 
 Vue.config.productionTip = false
