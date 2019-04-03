@@ -1,14 +1,27 @@
 <template>
-    <div class="container text-center" style="" id="livestream-container" >
-        <h3 class="w-100">Memuat data</h3>
+    <div class="container">
+        <b-tabs content-class="mt-2" style="width: 100%;">
+            <b-tab title="Livestream" active title-item-class="w-50 tabs-title">
+                <div class="container text-center w-100" id="livestream-container">
+                    <h3 class="w-100">Memuat data</h3>
+                </div>
+            </b-tab>
+            <b-tab title="Livestream lawas" title-item-class="tabs-title w-50">
+                <Video></Video>
+            </b-tab>
+        </b-tabs>
     </div>
 </template>
 
 <script>
 import axios from 'axios'
+import Video from '@/views/Video.vue'
 
 export default {
     name: "Livestream",
+    components: {
+        Video
+    },
     data: () => ({
         channel: "UCqyYrbhDar48h7-mj1RNb2g",
         kunciGeni: "AIzaSyByS2fDWX22pUxGG_KqwnVJu4aW-641h8s",
@@ -38,8 +51,11 @@ export default {
 }
 </script>
 
-<style scoped>
-    .container{
+<style>
+    /* .tabs-title{
+        overflow: hidden;
+    } */
+    /* .container{
         display: flex;
         align-items: center;
         min-height: calc(100vh - 80px);
@@ -48,5 +64,18 @@ export default {
         .container{
             min-height: calc(100vh - 210px);
         }
+    } */
+</style>
+
+<style>
+    .tabs-title > a{
+        white-space: nowrap;
+        overflow: hidden;
+        color: #fff;
+    }
+    .tabs-title > .nav-link.active{
+        background-color: #ff6f00;
+        border-color: #ff6f00 #ff6f00 #fff #ff6f00;
+        color: #fff;
     }
 </style>
