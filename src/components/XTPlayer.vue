@@ -72,11 +72,6 @@
                     this.audio.removeChild(this.audio.firstChild);
                 }
 
-                var addAudio = document.createElement("source");
-                addAudio.setAttribute("src", this.defaultUrl);
-                addAudio.setAttribute("type", "audio/mpeg");
-                this.audio.appendChild(addAudio);
-
                 if(this.isPlaying){
                     this.audio.pause();
                     this.isPlaying = false;
@@ -84,6 +79,15 @@
                 }
                 else
                 {
+                    var addAudio = document.createElement("source");
+                    addAudio.setAttribute("src", this.defaultUrl+'?type=.mp3');
+                    addAudio.setAttribute("type", "audio/mpeg");
+                    this.audio.appendChild(addAudio);
+                    addAudio = document.createElement("source");
+                    addAudio.setAttribute("src", this.defaultUrl+'?type=.ogg');
+                    addAudio.setAttribute("type", "audio/ogg");
+                    this.audio.appendChild(addAudio);
+
                     this.audio.play();
                     this.isPlaying = true;
                     console.log("Playing XTRadio");
@@ -96,13 +100,11 @@
                 if(this.isVolumeHigh){
                     this.audio.volume = 0;
                     this.isVolumeHigh = false;
-                    console.log("Volume to 0");
                 }
                 else
                 {
                     this.audio.volume = 1;
                     this.isVolumeHigh = true;
-                    console.log("Volume to 1");
                 }
                 this.updateState();
                 /* eslint-disable no-console */
