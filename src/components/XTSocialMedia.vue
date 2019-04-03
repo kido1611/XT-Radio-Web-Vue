@@ -3,7 +3,7 @@
         <div style="line-height: 1rem;">
             Follow us
         </div>
-        <div>
+        <div style="height: 28px;">
             <a href="http://twitter.com/xt_radio" target="_blank"><font-awesome-icon v-bind:icon="['fab', 'twitter']" size="2x"></font-awesome-icon></a>
             &nbsp;
             <a href="http://www.instagram.com/xt_radio" target="_blank"><font-awesome-icon v-bind:icon="['fab', 'instagram']" size="2x"></font-awesome-icon></a>
