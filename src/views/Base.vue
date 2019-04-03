@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <audio nocontrols id="audio-player">
+        <audio ref="audio" nocontrols id="audio-player" preload="auto">
             Your browser does not support the audio element.
         </audio>
         <TopNavbar></TopNavbar>
