@@ -8,8 +8,8 @@
                 <b-row class="m-0">
                     <b-col cols md="6" lg="4" v-for="anggota in item.anggota" v-bind:key="anggota.nim" class="p-1">
                         <div class="crew-card">
-                            <h5 class="text-uppercase" style="">{{anggota.jabatan}}</h5>
-                            <h6 class="m-0" style="color: rgba(255,255,255,0.7);">{{anggota.nama}} - {{anggota.nim}}</h6>
+                            <h5 class="text-uppercase" style="">{{anggota.nama}}</h5>
+                            <h6 class="m-0" style="color: rgba(255,255,255,0.7);">{{anggota.nim}}<br/>{{anggota.jabatan}}</h6>
                         </div>
                     </b-col>
                 </b-row>
