@@ -6,7 +6,17 @@
 
 <script>
 import moment from 'moment'
-import 'moment-timezone'
+import 'moment-timezone/moment-timezone'
+moment.tz.load({
+    "version": "2018g",
+    "zones": [
+        "Asia/Jakarta|LMT BMT +0720 +0730 +09 +08 WIB|-77.c -77.c -7k -7u -90 -80 -70|012343536|-49jH7.c 2hiLL.c luM0 mPzO 8vWu 6kpu 4PXu xhcu|31e6"
+    ],
+    "links": [
+
+    ]
+})
+moment.tz.setDefault('Asia/Jakarta')
 
 export default {
     name: 'XTAcara',
