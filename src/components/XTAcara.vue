@@ -56,7 +56,7 @@ export default {
             var acara7PM_min = moment(now_s+" 19:00:00 +07:00", "YYYY-MM-DD HH:mm:ss Z");
             var acara7PM_max = moment(now_s+" 20:59:59 +07:00", "YYYY-MM-DD HH:mm:ss Z");
 
-            // console.log("NOW: "+ now.format());
+            console.log("NOW: "+ now.format());
 
             if(now.format("d")>=1 && now.format("d")<=5)
             {
