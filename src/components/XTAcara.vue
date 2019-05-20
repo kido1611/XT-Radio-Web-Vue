@@ -19,6 +19,21 @@ export default {
             var now = moment().tz('Asia/Jakarta');
             var now_s = now.format("YYYY-MM-DD");
 
+            var now2 = new Date();
+            var localTime = now2.getTime();
+            var localOffset = now2.getTimezoneOffset() * 60000;
+
+            var utc = localTime + localOffset;
+            var nd = new Date(utc + (3600000 * 7));
+            utc = new Date(utc);
+
+            console.log(now2);
+            console.log(utc);
+            console.log(nd);
+
+            console.log(now2.toLocaleString(['ban', 'id']));
+
+
             var acaraBMX_min = moment(now_s+" 08:00:00 +07:00", "YYYY-MM-DD HH:mm:ss Z");
             var acaraBMX_max = moment(now_s+" 09:59:59 +07:00", "YYYY-MM-DD HH:mm:ss Z");
 
