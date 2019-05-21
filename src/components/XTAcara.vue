@@ -16,7 +16,7 @@ moment.tz.load({
 
     ]
 })
-moment.tz.setDefault('Asia/Jakarta')
+// moment.tz.setDefault('Asia/Jakarta')
 
 export default {
     name: 'XTAcara',
