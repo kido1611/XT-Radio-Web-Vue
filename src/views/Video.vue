@@ -24,7 +24,8 @@ export default {
         /* eslint-disable no-console */
         axios
             // https://www.googleapis.com/youtube/v3/videos?part=id%2Csnippet&id=LDnsa5-igKw&key=AIzaSyByS2fDWX22pUxGG_KqwnVJu4aW-641h8s
-            .get('/data/video.json')
+            .get('https://raw.githubusercontent.com/kido1611/XT-Radio-Web/master/public/data/video.json')
+            //.get('/data/video.json')
             .then(response => {
                 this.videoList = response.data.video;
             })
