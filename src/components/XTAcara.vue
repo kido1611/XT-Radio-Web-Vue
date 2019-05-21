@@ -26,7 +26,10 @@ export default {
     methods: {
         update: function(){
             /* eslint-disable no-console */
+            var jamPc = moment();
+            console.log("Jam PC: "+jamPc.format());
             var now = moment().tz('Asia/Jakarta');
+            console.log("Jam XT: "+ now.format());
             var now_s = now.format("YYYY-MM-DD");
 
             var acaraBMX_min = moment(now_s+" 08:00:00 +07:00", "YYYY-MM-DD HH:mm:ss Z");
@@ -40,8 +43,6 @@ export default {
 
             var acara7PM_min = moment(now_s+" 19:00:00 +07:00", "YYYY-MM-DD HH:mm:ss Z");
             var acara7PM_max = moment(now_s+" 20:59:59 +07:00", "YYYY-MM-DD HH:mm:ss Z");
-
-            console.log("NOW: "+ now.format());
 
             if(now.format("d")>=1 && now.format("d")<=5)
             {
