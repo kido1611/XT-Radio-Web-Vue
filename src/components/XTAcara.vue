@@ -7,6 +7,8 @@
 <script>
 import moment from 'moment'
 import 'moment-timezone/moment-timezone'
+import 'moment/locale/id'
+moment.locale('id')
 moment.tz.load({
     "version": "2018g",
     "zones": [
