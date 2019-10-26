@@ -5,7 +5,7 @@
                 <img src="../assets/logo.png" alt="XT Logo" style="width:250px; height: 250px;">
             </b-col>
             <b-col cols="12" md="6" class="w-100">
-                <XTPlayer id="audio-player" url="https://xt-radio.com:8080/stream"></XTPlayer>
+                <XTPlayer id="audio-player"></XTPlayer>
                 <br/>
                 <XTAcara style="max-width: 300px; margin: auto;"></XTAcara>
             </b-col>
